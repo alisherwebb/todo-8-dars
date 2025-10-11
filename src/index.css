@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #155dfc;
+}
+
+@layer base {
+  html {
+    @apply min-h-screen;
+  }
+  body {
+    @apply min-h-screen bg-gray-400;
+  }
+  #root {
+    @apply min-h-screen;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply px-4 mx-auto;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-gray-300 transition inline-flex py-2 px-4 rounded-sm hover:bg-primary hover:text-white;
+  }
+  .btn-primary {
+    @apply bg-primary hover:opacity-80 text-white;
+  }
+  .input {
+    @apply border-2 border-primary focus:outline-2 outline-primary px-2 py-1 rounded-sm;
+  }
+}

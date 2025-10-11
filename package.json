@@ -1,5 +1,5 @@
 {
-  "name": "8-dars",
+  "name": "vazifa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "@tailwindcss/vite": "^4.1.14",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-redux": "^9.2.0"
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "tailwindcss": "^4.1.14",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
