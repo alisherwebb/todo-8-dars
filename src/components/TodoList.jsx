@@ -87,13 +87,13 @@ function TodoList() {
                 onClick={() => setIsModalOpen(false)}
                 className="px-5 py-2 rounded-xl bg-gray-200 text-gray-700 font-semibold hover:bg-gray-300"
               >
-                Bekor qilish
+                Back
               </button>
               <button
                 onClick={handleSave}
                 className="px-5 py-2 rounded-xl bg-purple-600 text-white font-semibold hover:bg-purple-500"
               >
-                Saqlash
+                Save
               </button>
             </div>
           </div>
