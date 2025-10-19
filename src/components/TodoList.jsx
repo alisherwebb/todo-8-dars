@@ -44,7 +44,7 @@ function TodoList() {
           {todos.map((todo) => (
             <li
               key={todo.id}
-              className="w-full bg-black rounded-2xl p-4 shadow-md border-2 border-gray-300 flex justify-between items-center"
+              className="w-full bg-black rounded-2xl p-6 shadow-md border-2 border-gray-300 flex justify-between items-center"
             >
               <span className="text-lg text-white">{todo.text}</span>
               <div className="flex gap-3">
