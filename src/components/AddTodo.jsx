@@ -38,7 +38,7 @@ function AddTodo() {
           type="submit"
           className="w-full py-2 rounded-xl bg-purple-600 text-white font-bold text-lg"
         >
-          Craete
+          Create
         </button>
       </form>
     </div>
